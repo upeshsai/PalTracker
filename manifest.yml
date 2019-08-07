@@ -1,0 +1,7 @@
+applications:
+  - name: pal-tracker-manifest-upesh-7aug
+    path: build/libs/pal-tracker.jar
+    random-route: true
+    env:
+      WELCOME_MESSAGE: Hello from Cloud Foundry
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { verssion: 11.+ } }'
