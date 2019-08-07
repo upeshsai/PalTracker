@@ -2,7 +2,7 @@ applications:
   - name: pal-tracker-upesh-travis
     path: build/libs/pal-tracker.jar
     routes:
-      - route: pal-tracker-upesh-7aug.apps.chicken.pal.pivotal.io
+      - route: pal-tracker-upeshsai.apps.pas-useast1.gcp-wipro.com
     env:
       WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
