@@ -7,5 +7,5 @@ applications:
       WELCOME_MESSAGE: Hello from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
       spring.profiles.active: cloud
-      services:
-        - upesh_db
+    services:
+    - upesh_db
